@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: http://*/* https://*/* ws://*/* wss://*/* 'unsafe-eval' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; media-src *">
+        <meta charset="utf-8" />
+        <meta name="format-detection" content="telephone=no">
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+    </head>
+    
+    <body style="background-color:#FFFFFF;" data-theme="f">
+    
+		<div id="homePage" data-role="page" data-theme="f">
+		
+		    <div data-role="header" data-position="fixed" data-tap-toggle="false" data-theme="f">
+		        <div>
+			    	<div style="float:left;padding-left:5px;padding-top:5px;"><img src="img/BMCE_logo.png" /></div>
+			    	<div style="float:right;padding-right:5px;padding-top:5px;padding-bottom:15px;"><b style="text-align:center;"><div><small>FX-DIRECT</small></div><div><small>mobile</small></div></b></div>
+		    	</div>
+		    </div>
+		
+			<div data-role="content" id="mainContent" data-theme="f" style="padding:2px;"> 
+		    	<div id="devisesList"></div>
+			</div>
+		
+			<div data-role="footer" data-position="fixed" data-tap-toggle="false" data-theme="f" style="padding:3px;">
+	 	        <div style="margin-left:10px;margin-top:10px;width:20px;height:20px;float:left;"><img src="img/settings2.png" onclick="gotoSettings();"/></div>
+	 	        <a href="#" style="border-radius:0px;background:rgba(0,0,0,0);border:1px solid #eaeaea;float:right;margin-right:8px;" onclick="disconnect();"><img src="img/logout.png" /></a>
+		    </div>
+		
+		</div>	
+	
+	</body>
+    
+</html>
